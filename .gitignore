@@ -139,3 +139,5 @@ cython_debug/
 
 # Benchmarker custom gitignore
 *.csv
+
+.idea/*

@@ -10,7 +10,7 @@ class BenchmarkingReport:
                  sklearn_version,
                  dt=None):
         self.results = results
-        self.datetime = dt or datetime.datetime.now()
+        self.datetime = dt or datetime.datetime.utcnow()
         self.args = args
         self.mindsdb_version = mindsdb_version
         self.sklearn_version = sklearn_version
